@@ -1,0 +1,26 @@
+
+###���������˿ں�
+server:
+  port: 8001
+###��������(����ע�ᵽeureka����)
+spring:
+    application:
+        name: app-itmayiedu-order
+###����ע�ᵽeureka��ַ
+eureka:
+  client:
+    service-url:
+           defaultZone: http://localhost:8100/eureka
+  instance:
+
+###��Ϊ��Ӧ��Ϊע�����ģ�����ע���Լ�
+    register-with-eureka: true
+###�Ƿ���Ҫ��eureka�ϻ�ȡע����Ϣ
+    fetch-registry: true
+    lease-renewal-interval-in-seconds: 1
+    lease-expiration-duration-in-seconds: 2
+
+
+feign:
+  hystrix:
+        enabled: true
