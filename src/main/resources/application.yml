@@ -20,7 +20,8 @@ eureka:
     lease-renewal-interval-in-seconds: 1
     lease-expiration-duration-in-seconds: 2
 
-
+###111111111111111111111111
+111111111111111
 feign:
   hystrix:
         enabled: true
