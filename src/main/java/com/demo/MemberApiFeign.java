@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * Created by wangyong on 2019/8/30.
+ * 111111111111111111111111111111
  */
 @FeignClient(name="app-itmayiedu-member")
 public interface MemberApiFeign {
